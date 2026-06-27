@@ -19,16 +19,12 @@
 #
 ---
 include:
-  
-  - board: nice_nano
+  - board: nice_nano@1
     shield: corne_left
     snippet: zmk-usb-logging
 
-  - board: nice_nano
-    shield: corne_left
-
-  - board: nice_nano
+  - board: nice_nano@1
     shield: corne_right
 
-  - board: nice_nano
+  - board: nice_nano@1
     shield: settings_reset
