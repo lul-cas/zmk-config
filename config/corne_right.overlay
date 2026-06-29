@@ -1,0 +1,13 @@
+&gpio0 {
+	ext_vcc_hog {
+		gpio-hog;
+		gpios = <13 0>;
+		output-high;
+	};
+};
+
+/ {
+	EXT_POWER {
+		init-delay-ms = <500>;
+	};
+};
